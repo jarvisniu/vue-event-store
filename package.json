@@ -1,0 +1,21 @@
+{
+  "name": "vue-event-store",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "index.ts",
+  "module": "index.ts",
+  "keywords": [
+    "vue",
+    "event",
+    "management"
+  ],
+  "repository": "git@github.com:jarvisniu/vue-event-store.git",
+  "author": "Jarvis Niu <jarvisniu@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "events": "^3.3.0"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  }
+}
