@@ -29,7 +29,7 @@ Then, use `useEvent` composable to listen to the events.
 > The listener will be automatically removed on unmount.
 
 ```ts
-// send-page.vue
+// receive-page.vue
 import { useEvent } from "vue-event-store";
 import eventStore from "./event-store";
 
@@ -43,7 +43,7 @@ Finally, trigger the events.
 > It's just like calling normal functions.
 
 ```ts
-// receive-page.vue
+// send-page.vue
 import eventStore from "./event-store";
 
 <button @click="eventStore.user.login('jarvis')">Login</button>
